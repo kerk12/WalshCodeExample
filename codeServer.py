@@ -1,3 +1,17 @@
+"""
+    Walsh Code Example implemented in SageMath with Python.
+    Coded by:
+    Kyriakos Giannakis
+    Vasilis Zografos
+    Panagiotis Efstathiadis
+
+    See the included LICENCE.md file for the licence details.
+"""
+
+"""
+    Server Script: Gets and decodes messages.
+"""
+
 size = 4
 
 import socket
@@ -10,7 +24,7 @@ try:
     s.connect((host, port))
 except Exception:
     print "Could not connect. Check that the client is running..."
-    
+
 print "Recieving encoded word..."
 data_enc = s.recv(1024) #Get the encoded message
 s.close()

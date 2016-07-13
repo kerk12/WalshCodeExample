@@ -1,3 +1,17 @@
+"""
+    Walsh Code Example implemented in SageMath with Python.
+    Coded by:
+    Kyriakos Giannakis
+    Vasilis Zografos
+    Panagiotis Efstathiadis
+
+    See the included LICENCE.md file for the licence details.
+"""
+
+"""
+    Client Script: Encodes and sends messages.
+"""
+
 from sage.all import *
 import random, decimal
 size = 4 #The dimensions of the code. Anything > 4 takes a long time to complete...

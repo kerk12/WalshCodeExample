@@ -1,3 +1,17 @@
+"""
+    Walsh Code Example implemented in SageMath with Python.
+    Coded by:
+    Kyriakos Giannakis
+    Vasilis Zografos
+    Panagiotis Efstathiadis
+
+    See the included LICENCE.md file for the licence details.
+"""
+
+"""
+    Error Generator: Generates errors in encoded words.
+"""
+
 import random
 
 # dec_err is the percentange of errors in decimal form , i.e: 0,5 , 0,125 etc
