@@ -1,7 +1,9 @@
 # Walsh Code example in SageMath
-##### Implemented by Kyriakos Giannakis (kerk12), Vasilis Zografos, Panagiotis Efstathiadis
+##### Implemented by Kyriakos Giannakis (kerk12), Vasilis Zografos, Panagiotis Efstathiadis as part of the information theory and encoding course on University of Piraeus (Spring semester 2015-2016).
 
 This project is a client-server example of Walsh Code encoding and decoding in [SageMath](http://www.sagemath.org/). In this example, the client sends an encoded message to the server, after adding some errors to it. The server then decodes and corrects the errors (or at least tries to...) it and prints it out.
+
+**Note**: The client-server roles have been "reversed" as the exercise requires so. We are sorry for any confusion... 
 
 ## Usage:
 1. Make sure you have SageMath installed
